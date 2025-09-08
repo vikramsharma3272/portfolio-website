@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+
+    <section><a href = /portfolio/Education.html target = "_main"><img src="https://www.shutterstock.com/image-vector/design-concept-word-education-website-260nw-1043962978.jpg"> </a> </section>
+    <br>
+    <section> <a href = /portfolio/Experience.html target = "_main">Experience</a><br></section><br>
+         <!-- it is also ok to use br tag like this(as used in above line) -->
+
+    <section><a href = /portfolio/Project.html target="_main">Project</a></section>
+    </main>
+    <br>
+    <h1>Registration Form</h1>
+    <form action="/action.php">
+        <input type="text"placeholder= "Username"><br><br>
+        <input type="password"placeholder="Password"><br><br>
+        <p><b>Select your class</b></p>
+        <label for="101">
+            <input type="radio" value="class 11" name="class" id="101">Class 11
+        </label>
+        <label for="102">
+            <input type="radio" value="class 12" name="class" id="102">Class 12
+            </label><br><br><br>
+            <p><b>Select your fav subjects</b></p>
+            <!-- id backend mein kaam aayegi -->
+        <label for="103">
+            <input type="checkbox" value="maths" name="subject" id="103">Maths
+        </label><br><br>
+
+        <label for="104">
+            <input type="checkbox" value="physics" name="subject" id="104">Physics
+        </label><br><BR>
+             
+        <label for="105">
+            <input type="checkbox" value="chemistry" name="subject" id="105">Chemistry
+        </label><br><br>
+
+        <label for="106">
+            <input type="checkbox" value="english" name="subject" id="106">English
+        </label><br><br><br> 
+            Select Your City
+            <select name="City">
+                <option value="select">select</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Bengaluru">Bengaluru</option>
+
+            </select><br><br> 
+        
+        <textarea name="Feedback" id="107" placeholder="Please give your feedback" rows="7"></textarea><br>
+
+        <input type="submit">     <br><br>
+
+    </form>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=tjSPHAft4PLLVMVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+    <!-- <iframe src="https://google.com" frameborder="0"></iframe> , some website do not allow iframe -->
+
+     <video width="1880" height="900" src="Sabrina Carpenter .mp4" controls loop>  Sabrina Carpenter
+</body>
+</html>
